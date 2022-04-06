@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		t1 = 0, t2 = 1;
+    	n = parseInt(prompt("Enter the number of terms : "));
+    	document.write("Fibonacci Series: ");
+    	for (i = 1; i <= n; ++i) {
+        	document.write(t1 + ", ");
+        	nextTerm = t1 + t2;
+        	t1 = t2;
+        	t2 = nextTerm;
+    	}
+	</script>
+</body>
+</html>
